@@ -46,6 +46,6 @@ public class NextText1: MonoBehaviour
 
     public void ChangeBackgroundMusic()
     {
-        AudioManager.SetAsBackgroundMusicInstance("Audio/MAIN_THEME", true);
+        AudioManager.SetAsBackgroundMusicInstance("Audio/The_Moonless_Forest", true);
     }
 }

@@ -30,6 +30,7 @@ namespace TimelinePerStage.title
 
         public void Load()
         {
+            AudioManager.SetAsBackgroundMusicInstance("Audio/The_Moonless_Forest", true);
             SaveData.LoadScene();
         }
     }

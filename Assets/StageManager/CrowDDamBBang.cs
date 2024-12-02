@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,7 @@ namespace StageManager
     {
         private void Start()
         {
+            AudioManager.SetAsBackgroundMusicInstance("Audio/Radience", true);
             SceneManager.LoadScene("CrowChacing");
         }
     }
